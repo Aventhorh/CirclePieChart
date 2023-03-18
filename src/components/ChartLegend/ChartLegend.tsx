@@ -10,8 +10,6 @@ const ChartLegend: FC<IChartLegend> = ({ data, state }) => {
         return <ChartLegendLarge data={data} />;
       case "medium":
         return <ChartLegendMedium data={data} />;
-      case "small":
-        return <></>;
       default:
         return <></>;
     }

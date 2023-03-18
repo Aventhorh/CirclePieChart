@@ -20,7 +20,7 @@ const ChartLegendMedium: FC<IChartLegendChildren> = ({ data }) => {
   );
 
   return (
-    <ul className="grid grid-cols-2 gap-2">
+    <ul className="grid grid-cols-1 gap-2">
       {data?.map((item: TData) => renderLegend(item))}
     </ul>
   );
