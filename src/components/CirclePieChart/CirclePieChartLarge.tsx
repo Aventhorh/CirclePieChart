@@ -7,7 +7,7 @@ const CirclePieChartLarge: FC<ICirclePieChartChildren> = ({ data }) => {
   return (
     <section className="flex justify-center w-[520px] h-full mx-5 my-5 px-5 py-5 flex-col bg-[#171820] rounded-[10px]">
       <div className="flex-1 flex flex-col items-center">
-        <h2 className="font-light text-[14px] text-white leading-[18.77px] w-full">
+        <h2 className="font-extralight text-[14px] text-white leading-[18.77px] w-full">
           Статистика осмотров
         </h2>
         <div className="flex justify-center items-center max-w-[470px] mt-8">
