@@ -20,7 +20,7 @@ const CirclePieChartLarge: FC<ICirclePieChartChildren> = ({ data }) => {
               className="absolute w-[150px] h-[150px] rounded-[50%] m-[8px] top-[35px] right-[35px]
              bg-[#1e262f] flex justify-center items-center flex-col"
             >
-              <span className="font-normal text-[24px] text-[#fff] leading-[28.15px]">
+              <span className="text-ellipsis overflow-hidden max-w-[120px] font-normal text-[24px] text-[#fff] leading-[28.15px]">
                 {!data
                   ? 0
                   : data.reduce((acc, number) => acc + number?.value, 0)}

@@ -1,17 +1,17 @@
 export const data = [
   {
     title: "риски",
-    value: 1301,
+    value: 201,
     color: "#F5C90F",
   },
   {
     title: "опасность",
-    value: 600,
+    value: 400,
     color: "#31B07E",
   },
   {
     title: "в норме",
-    value: 815,
+    value: 315,
     color: "#F45C84",
   },
   {
@@ -21,12 +21,12 @@ export const data = [
   },
   {
     title: "готово",
-    value: 1558,
+    value: 158,
     color: "#8A2BE2",
   },
   {
     title: "обсуждение",
-    value: 679,
+    value: 179,
     color: "#FF7F50",
   },
 ];
