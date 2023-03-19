@@ -13,9 +13,12 @@ const CirclePieChartMedium: FC<ICirclePieChartChildren> = ({ data }) => {
 
         <div className="flex flex-row items-center">
           <div className="flex justify-start items-start mt-5">
-            <div className="piechart_medium_small">
+            <div className="flex justify-center items-center w-[135px] h-[135px] relative">
               <PieChart data={data} />
-              <div className="chart_inside_medium_small">
+              <div
+                className="absolute w-[85px] h-[85px] rounded-[50%] m-[8px] top-[17px] right-[17px]
+             bg-[#1e262f] flex justify-center items-center flex-col"
+              >
                 <span className="font-normal text-[18px] text-[#fff] leading-[23.15px]">
                   {!data
                     ? 0
