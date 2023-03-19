@@ -9,7 +9,7 @@ const ChartLegendLarge: FC<IChartLegendChildren> = ({ data }) => {
         className="w-[20px] h-[20px] rounded-[2px]"
         style={{ backgroundColor: `${item?.color}` }}
       />
-      <p className="font-extralight text-[14px] text-white leading-[16.42px] pl-[10px] pb-[2px]">
+      <p className="font-light text-[14px] text-white leading-[16.42px] pl-[10px] pb-[2px]">
         {item?.title}
       </p>
       <span className="text-white mx-[10px] pb-[2px]">&#183;</span>
